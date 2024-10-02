@@ -9,7 +9,7 @@ body, html {
 }
 
 .container {
-    max-width: 400px;
+    max-width: 380px;
     margin: 20px auto;
     background-color: #fff;
     border-radius: 20px;
@@ -18,8 +18,11 @@ body, html {
 }
 
 .header {
+    display: flex;
+    flex-flow: column wrap;
     padding: 20px;
-    background-color: #f0f0f0;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.425);
+    border-radius: 10px;
     position: relative;
 }
 
@@ -31,7 +34,8 @@ body, html {
 
 .subtitle {
     font-size: 16px;
-    color: #666;
+    display: flex;
+    flex-flow: column wrap;
 }
 
 .profile-image {
@@ -41,7 +45,7 @@ body, html {
     border-radius: 50%;
     position: absolute;
     right: 20px;
-    top: 20px;
+    top: 10px;
 }
 
 .content {
