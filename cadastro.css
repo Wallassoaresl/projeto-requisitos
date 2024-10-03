@@ -9,11 +9,12 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 100vh;
-    background: linear-gradient(to bottom, rgb(67, 168, 82), rgb(179, 180, 178));
+    background-color: lightgray;
     display: flex;
     justify-content: center;
     flex-flow: column nowrap;
     align-items: center;
+    background: linear-gradient(to bottom, rgb(209, 209, 209), rgb(80, 80, 80));
 }
 
 h1 {
