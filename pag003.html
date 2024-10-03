@@ -3,29 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remedy</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="style3.css">
-    <title>Remedy</title>
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <div class="greeting">Olá, Maria!</div>
-            <div class="subheading">Sem medicações hoje</div>
-        </div>
-        <div class="content">
-            <div class="status">
-                <div class="status-icon"></div>
-                <p>Não há registros de medicações no momento</p>
+        <form>
+            <div class="form-group">
+                <label for="medication">Nome da medicação</label>
+                <select id="medication">
+                    <option>Selecione...</option>
+                </select>
             </div>
-        </div>
-        <div class="footer">
-            <div class="material-icons">menu</div>
-            <div id="add" class="material-symbols-outlined"><a href="pag004.html">add</a></div>
-            <div class="material-symbols-outlined">account_circle</div>
-        </div>
+            <div class="form-group">
+                <label for="dosage">Dosagem</label>
+                <select id="dosage">
+                    <option>Selecione...</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Posologia</label>
+                    <div class="qhi">
+                        <p class="quantidade">Qtd</p>
+                        <p class="horario">Horário</p>
+                        <p class="intervalo">Intervalo</p>
+                    </div>
+                <div class="posology">
+                    <select>
+                        <option></option>
+                    </select>
+                    <select>
+                        <option></option>
+                    </select>
+                    <select>
+                        <option></option>
+                    </select>
+                </div>
+            </div>
+            <div class="toggle">
+                <div class="toggle-switch"></div>
+                <span>Lembrar horário</span>
+            </div>
+            <div class="form-group">
+                <label for="observations">Observações</label>
+                <textarea id="observations" placeholder="Adicione observações personalizadas"></textarea>
+            </div>
+            <button type="submit" class="add-button"><a href="pag004.html">Adicionar novo medicamento</a></button>
+        </form>
     </div>
 </body>
 </html>

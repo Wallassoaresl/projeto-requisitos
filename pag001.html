@@ -7,10 +7,29 @@
     <link rel="stylesheet" href="style1.css">
 </head>
 <body>
+    <h1>Remedy</h1>
     <div class="container">
-        <h1>Remedy</h1>
-        <button onclick="window.location.href='pag002.html';">Entrar</a></button>
-        <button>Criar uma conta</button>
+        <header class="header">
+        </header>
+        <main class="main">
+            <h2>Entrar</h2>
+            <form class="form" autocomplete="off">
+                <div class="input-container">
+                    <input type="email" id="email" placeholder="E-mail" required>
+                </div>
+                <div class="input-container">
+                    <input type="password" id="senha"
+                    placeholder="Senha"
+                    required>
+                </div>
+                <div class="remember-me">
+                    <input type="checkbox" id="remember">
+                    <label for="remember">Lembrar meu e-mail</label>
+                </div>
+                <button onclick="window.location.href='pag002.html';">Entrar</button>
+            </form>
+            <p class="signup">Não tem uma conta? <a href="#">Cadastre-se</a></p>
+        </main>
     </div>
 </body>
 </html>

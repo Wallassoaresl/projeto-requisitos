@@ -3,56 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Remedy</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="style4.css">
+    <title>Remedy</title>
 </head>
 <body>
     <div class="container">
-        <form>
-            <div class="form-group">
-                <label for="medication">Nome da medicação</label>
-                <select id="medication">
-                    <option>Selecione...</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="dosage">Dosagem</label>
-                <select id="dosage">
-                    <option>Selecione...</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label>Posologia</label>
-                <div class="posology">
-                    <select>
-                        <option>Qtd...</option>
-                    </select>
-                    <select>
-                        <option>Horário...</option>
-                    </select>
-                    <select>
-                        <option>Intervalo...</option>
-                    </select>
+        <div class="header">
+            <div class="greeting">Olá, Maria!</div>
+            <div class="subtitle">Próxima medicação em 25 minutos</div>
+            <div class="profile-image"></div>
+        </div>
+        <div class="content">
+            <div class="medication-card">
+                <div class="medication-info">
+                    <div class="medication-name">VARFARINA</div>
+                    <div class="medication-time">10:00 PM</div>
+                    <div class="medication-frequency">1x ao dia</div>
                 </div>
+                <div class="toggle-switch active"></div>
             </div>
-            <div class="toggle">
-                <div class="toggle-switch"></div>
-                <span>Lembrar horário</span>
-            </div>
-            <div class="form-group">
-                <label for="observations">Observações</label>
-                <textarea id="observations" placeholder="Adicione observações personalizadas"></textarea>
-            </div>
-            <button type="submit" class="add-button">Adicionar novo medicamento</button>
-            <div class="footer">
-                <div class="material-icons">menu</div>
-                <div id="add" class="material-symbols-outlined"><a href="pag005.html">add</a></div>
-                <div id="profile" class="material-symbols-outlined">account_circle</div>
-            </div>
-        </form>
+        </div>
+        <div class="footer">
+            <div class="material-icons">menu</div>
+            <div id="add" class="material-symbols-outlined">add</div>
+            <div id="profile" class="material-symbols-outlined">account_circle</div>
+        </div>
     </div>
 </body>
 </html>
