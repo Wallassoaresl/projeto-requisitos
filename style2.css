@@ -13,6 +13,7 @@ body {
     justify-content: center;
     flex-flow: column nowrap;
     align-items: center;
+    background: linear-gradient(to bottom, rgb(67, 168, 82), rgb(179, 180, 178));
 }
 
 .container {

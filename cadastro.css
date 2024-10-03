@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 * {
-    margin: 0px;
     padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
 }
 
@@ -16,9 +16,10 @@ body {
     align-items: center;
 }
 
-body h1 {
-    margin-bottom: 50px;
-    font-size: 3em;
+h1 {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .container {
@@ -32,65 +33,24 @@ body h1 {
     flex-flow: column nowrap;
 }
 
-header {
+.form-group {
     display: flex;
+    flex-flow: column wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 20px;
 }
 
-.header h1 {
-    font-size: 24px;
+label {
+    display: block;
+    margin-bottom: 10px;
 }
 
-.back a {
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-}
-
-.main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
-
-.main h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
-    font-weight: bold;
-}
-
-.form {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-}
-
-.input-container {
-    margin-bottom: 15px;
-    width: 100%;
-}
-
-input[type="email"], input[type="password"] {
+input {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-}
-
-.remember-me {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-    width: 100%;
-}
-
-.remember-me input {
-    margin-right: 10px;
+    border-radius: 4px;
 }
 
 button {
@@ -102,19 +62,10 @@ button {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-}
-
-button:hover {
-    background-color: #333;
-}
-
-.signup {
     margin-top: 20px;
-    font-size: 14px;
 }
 
-.signup a {
+a {
     text-decoration: none;
-    color: #000;
-    font-weight: bold;
+    color: white;
 }

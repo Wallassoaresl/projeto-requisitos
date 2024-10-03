@@ -13,6 +13,7 @@ body {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(to bottom, rgb(67, 168, 82), rgb(179, 180, 178));
 }
 
 .container {
@@ -149,5 +150,5 @@ body {
 }
 
 #add:hover {
-    background-color:  rgb(151, 0, 0);
+    background-color: #333
 }
