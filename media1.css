@@ -5,7 +5,7 @@
     display: flex;
     flex-flow: column nowrap;
     width: 800px;
-    height: 400px;
+    height: 350px;
 }
 }
     
@@ -17,6 +17,7 @@
     flex-flow: column nowrap;
     width: 800px;
     height: 350px;
+    align-items: center;
 }
 
 .form {
@@ -25,5 +26,7 @@
     align-items: center;
     width: 80%;
 }
+
+
 
 }
